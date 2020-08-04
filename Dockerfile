@@ -1,3 +1,3 @@
-FROM  openjdk:11.0.8-jdk
+FROM lpicanco/java11-alpine:11.0
 COPY holamundo.jar holamundo.jar
 CMD ["java","-jar", "holamundo.jar"]
